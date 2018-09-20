@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: zhaluocloud-config-dev
+---
+spring:
+  profiles: test
+  application:
+    name: zhaluocloud-config-test
